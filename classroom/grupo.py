@@ -22,8 +22,8 @@ class Grupo:
     # def __str__(self):
     #     pass
     def __str__(self):
-        cadena= 'grupo predeterminado'
-        return 'grupo estudiantes:'+cadena 
+        
+        return 'grupo estudiantes:'+self._grupo
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 10"):
